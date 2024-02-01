@@ -1,0 +1,19 @@
+--[[
+    @Author: Wang Jun
+    @Date: 2024/2/1 22:58
+    @FileName: MainLua.lua.txt
+    @Description: 
+--]]
+
+
+--调用本模块方法
+xlua.hotfix(
+        CS.TestCode.HotFixCode,'RunCSharpCode',
+        function()
+            print('我执行的是MainLua的方法')
+        end
+)
+
+local HotFixDemon = CS.TestCode.HotFixCode
+local hotFixDemon = HotFixDemon();
+hotFixDemon:LuaCallCSharp();
