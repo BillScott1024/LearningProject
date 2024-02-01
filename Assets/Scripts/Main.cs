@@ -1,5 +1,6 @@
 
 using TestCode;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -9,10 +10,14 @@ public class Main : MonoBehaviour
     private GameObject player = null;
     private GameObject xluaGO = null;
 
+    [SerializeField] TMP_Text text = null;
+
     // Start is called before the first frame update
     void Start()
     {
        Debug.LogWarning("Start");
+
+       text.text = "hello!!!";
        Init();
     }
 
