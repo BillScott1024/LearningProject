@@ -12,6 +12,10 @@ public class Main : MonoBehaviour
 
     [SerializeField] TMP_Text text = null;
 
+    struct MyStruct
+    {
+        public int num;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -59,4 +63,6 @@ public class Main : MonoBehaviour
     {
             // Debug.LogWarning("LateUpdate "+printLateCount);
     }
+    
+    
 }
