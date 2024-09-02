@@ -29,7 +29,10 @@ public class Main : MonoBehaviour
     {
 
         // TestCoroutine();
-        TestXlua();
+        // TestXlua();
+        
+        LRUTest testCSharp = new LRUTest();
+        testCSharp.Test();
     }
 
     private void TestXlua()

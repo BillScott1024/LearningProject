@@ -359,6 +359,8 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Main.cs"
 "Assets/Scripts/TestCode/CSCoroutine.cs"
+"Assets/Scripts/TestCode/LuaCSharpTest.cs"
+"Assets/Scripts/TestCode/TestCSharp.cs"
 "Assets/Scripts/TestCode/XluaCode.cs"
 "Assets/XLua/Gen/DelegatesGensBridge.cs"
 "Assets/XLua/Gen/EnumWrap.cs"
